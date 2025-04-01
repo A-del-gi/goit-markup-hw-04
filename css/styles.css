@@ -421,10 +421,14 @@ position: relative;
 overflow: hidden;
 }
 
-.texst,
-.portfolio-li:hover {
+,
+.portfolio-li:hover .texst {
     transform: translateY(0%);
 }
+/*.texst,
+.portfolio-li:hover { .overlay
+    transform: translateY(0%);
+}*/
 
 .texst {
     position: absolute;
@@ -505,9 +509,23 @@ overflow: hidden;
         margin-bottom: 16px;
 }
 
-.footer-logi {
+.footer-paragraph {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        margin-bottom: 16px;
+}
+
+.footer-logi { 
     display: flex;
-    gap: 16px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 16px;
+        width: 208px;
+            height: 40px;
 }
 
 .logi {
