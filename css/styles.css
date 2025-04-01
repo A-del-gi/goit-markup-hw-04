@@ -421,7 +421,6 @@ position: relative;
 overflow: hidden;
 }
 
-,
 .portfolio-li:hover .texst {
     transform: translateY(0%);
 }
