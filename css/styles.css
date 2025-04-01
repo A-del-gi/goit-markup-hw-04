@@ -424,10 +424,6 @@ overflow: hidden;
 .portfolio-li:hover .texst {
     transform: translateY(0%);
 }
-/*.texst,
-.portfolio-li:hover { .overlay
-    transform: translateY(0%);
-}*/
 
 .texst {
     position: absolute;
@@ -508,6 +504,7 @@ overflow: hidden;
         margin-bottom: 16px;
 }
 
+
 .footer-paragraph {
         font-weight: 500;
         font-size: 16px;
@@ -541,7 +538,6 @@ overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-   
 }
 
 .logi-href:hover {
